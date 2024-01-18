@@ -9,18 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     @State //Para que se actualize la interfaz
-    var nombre = "Pau"
+    var nombre = "Alberto"
     var body: some View {
         VStack {
             VStack {
                 VStack {
                     Text("Hello \(nombre)")
                         .italic()
-                        .foregroundColor(.green)
+                        .foregroundColor(.blue)
                         .padding()
                     
                     Button(action: {
-                        nombre = "Quesadilla"
+                        nombre = "Bribón"
                     }) {
                         Text("Pulsame")
                             .foregroundColor(.blue)
@@ -28,7 +28,7 @@ struct ContentView: View {
                             )
                     }
                     
-                    Image("Supra-MK5").resizable().aspectRatio(contentMode: .fit)
+                    Image("Foto").resizable().aspectRatio(contentMode: .fit)
                 }
             }
         }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAE8CB4B2B591A1700DA1D3F /* Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE8CB4A2B591A1700DA1D3F /* Foto.jpg */; };
+		CAE8CB4C2B591A1700DA1D3F /* Foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CAE8CB4A2B591A1700DA1D3F /* Foto.jpg */; };
 		CAE910CF2B57DE9D0068277D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE910CE2B57DE9D0068277D /* Tests_iOS.swift */; };
 		CAE910DA2B57DE9D0068277D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE910D92B57DE9D0068277D /* Tests_macOS.swift */; };
 		CAE910DC2B57DE9D0068277D /* TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE910B32B57DE9C0068277D /* TestAppApp.swift */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CAE8CB4A2B591A1700DA1D3F /* Foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Foto.jpg; path = ../../Prueba/Shared/Assets.xcassets/Foto.imageset/Foto.jpg; sourceTree = "<group>"; };
 		CAE910B32B57DE9C0068277D /* TestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppApp.swift; sourceTree = "<group>"; };
 		CAE910B42B57DE9C0068277D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAE910B52B57DE9D0068277D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 				CAE910B32B57DE9C0068277D /* TestAppApp.swift */,
 				CAE910B42B57DE9C0068277D /* ContentView.swift */,
 				CAE910B52B57DE9D0068277D /* Assets.xcassets */,
+				CAE8CB4A2B591A1700DA1D3F /* Foto.jpg */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -276,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE910E02B57DE9D0068277D /* Assets.xcassets in Resources */,
+				CAE8CB4B2B591A1700DA1D3F /* Foto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE910E12B57DE9D0068277D /* Assets.xcassets in Resources */,
+				CAE8CB4C2B591A1700DA1D3F /* Foto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
